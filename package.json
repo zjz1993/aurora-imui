@@ -1,45 +1,22 @@
 {
-    "name": "aurora-imui-react-native",
-    "version": "0.14.0",
-    "description": "aurora imui plugin for react native application",
+    "name": "rn-chat-ui",
+    "version": "0.0.1",
+    "description": "react-native chat ui component",
     "main": "index.js",
 
     "repository": {
         "type": "git",
-        "url": "git@github.com:jpush/aurora-imui.git"
+        "url": "git@github.com:zjz1993/aurora-imui.git"
     },
     "keywords": [
         "react",
         "native",
         "imui"
     ],
-    "author": "KenChoi, huminiOS",
+    "author": "zhaojunzhe",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/jpush/aurora-imui/issues"
     },
-    "files": [
-        "iOS/IMUICommon",
-        "iOS/IMUIInputView",
-        "iOS/IMUIMessageCollectionView",
-        "ReactNative/android/",
-        "ReactNative/ios/",
-        "ReactNative/*.js",
-        "ReactNative/package.json"
-    ],
-    "homepage": "https://github.com/jpush/aurora-imui",
-    "rnpm": {
-        "ios": {
-            "sharedLibraries": [
-                "libz",
-                "CoreTelephony",
-                "CFNetwork",
-                "CoreFoundation",
-                "SystemConfiguration",
-                "Foundation",
-                "UIKit",
-                "CoreGraphics"
-            ]
-        }
-    }
+    "homepage": "https://github.com/zjz1993/aurora-imui"
 }
