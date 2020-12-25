@@ -412,6 +412,12 @@ public class ReactMsgListManager extends ViewGroupManager<PullToRefreshLayout> i
         mMessageList.setReceiveBubbleTextColor(colorRes);
     }
 
+    @ReactProp(name = "receiveBubbleBackgroundColor")
+    public void setReceiveBubbleTextColor(PullToRefreshLayout root, String color) {
+        int colorRes = Color.parseColor(color);
+        mMessageList.setReceiveBubbleColor(colorRes);
+    }
+
     @ReactProp(name = "sendBubbleTextSize")
     public void setSendBubbleTextSize(PullToRefreshLayout root, int size) {
         mMessageList.setSendBubbleTextSize(dip2sp(size));
