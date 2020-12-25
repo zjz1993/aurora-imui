@@ -17,7 +17,7 @@ import android.hardware.SensorManager;
 import android.media.AudioManager;
 import android.os.Handler;
 import android.os.PowerManager;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -413,9 +413,15 @@ public class ReactMsgListManager extends ViewGroupManager<PullToRefreshLayout> i
     }
 
     @ReactProp(name = "receiveBubbleBackgroundColor")
-    public void setReceiveBubbleTextColor(PullToRefreshLayout root, String color) {
+    public void setReceiveBubbleColor(PullToRefreshLayout root, String color) {
         int colorRes = Color.parseColor(color);
         mMessageList.setReceiveBubbleColor(colorRes);
+    }
+
+    @ReactProp(name = "sendBubbleBackgroundColor")
+    public void setSendBubbleColor(PullToRefreshLayout root, String color) {
+         int colorRes = Color.parseColor(color);
+         mMessageList.setSendBubbleColor(colorRes);
     }
 
     @ReactProp(name = "sendBubbleTextSize")
