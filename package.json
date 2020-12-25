@@ -1,6 +1,6 @@
 {
     "name": "rn-frbbs-chat-ui",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "react-native chat ui component",
     "main": "index.js",
 
